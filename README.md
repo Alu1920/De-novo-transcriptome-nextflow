@@ -2,7 +2,7 @@
 A Nextflow pipeline for performing de novo transcriptome assembly of a non-model organis using three assemblers (Trinity, rnaSPAdes, SOAPdenovo-Trans), followed by redundancy reduction (EvidentialGene, CD-HIT) and quality assessment (BUSCO, Bowtie2), and functional annotation (DIAMOND).
 
 ## Overview
-This pipeline automates RNA-seq data processing, assembly, quality assessment, and functional annotation using containerised tools executed via Singularity.
+This pipeline automates RNA-seq processing, assembly, quality assessment, and functional annotation using containerised tools executed via Singularity.
 The workflow is designed for high-performance computing (HPC) environments.
 
 ## This workflow performs the following:
